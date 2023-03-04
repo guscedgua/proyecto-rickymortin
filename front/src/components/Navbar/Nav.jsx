@@ -9,6 +9,7 @@ const Nav = ({ onSearch }) => {
                 <Link to='/' className={style.about} >LOGOUT</Link>
                 <Link to='/about' className={style.about} >About</Link>
                 <Link to='/home' className={style.home} >Home</Link>
+                <Link to='/favorites' className={style.home} >Favorites</Link>
             </div>
 
             <SearchBar onSearch={onSearch} />
